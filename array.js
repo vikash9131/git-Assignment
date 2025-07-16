@@ -41,3 +41,14 @@ const array1 = [4,5,6,7,8];
 const array2 = [12,14,45,23];
 let arr3 = array1.concat(array2);
 console.log(arr3);
+
+// forEach()
+function forEachExample(arr){
+    console.log("Original Array", arr);
+    arr.forEach(function(item,index){
+        console.log(item,index);
+    });
+}
+
+forEachExample([1,2,3,4]);
+
